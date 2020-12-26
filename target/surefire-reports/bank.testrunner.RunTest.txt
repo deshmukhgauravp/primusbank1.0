@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: bank.testrunner.RunTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 168.32 sec <<< FAILURE!
+Then user is on the "Admin" main page and get message as Welcome to Admin(Scenario: Login functionality for valid username and password)  Time elapsed: 0.066 sec  <<< ERROR!
+java.lang.NullPointerException
+	at bank.methods.SeleniumOperations.valid(SeleniumOperations.java:133)
+	at bank.cucumbermap.Login.user_is_on_the_main_page_and_get_message_as_Welcome_to_Admin(Login.java:65)
+	at ?.Then user is on the "Admin" main page and get message as Welcome to Admin(Login.feature:12)
+
+Scenario: Login functionality for valid username and password  Time elapsed: 0.066 sec  <<< ERROR!
+java.lang.NullPointerException
+	at bank.methods.SeleniumOperations.valid(SeleniumOperations.java:133)
+	at bank.cucumbermap.Login.user_is_on_the_main_page_and_get_message_as_Welcome_to_Admin(Login.java:65)
+	at ?.Then user is on the "Admin" main page and get message as Welcome to Admin(Login.feature:12)
+
